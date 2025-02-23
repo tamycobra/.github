@@ -1,0 +1,161 @@
+{
+    "eepl.target.device": {
+        "description": "[Device]",
+        "devManId": 0,
+        "devName": "Select Target",
+        "frameWorkVerA": 0,
+        "frameWorkVerB": 22,
+        "triplet": "thumbv7m-none-none-eabi",
+        "pathToFile": "",
+        "periphInfo": {
+            "aoCount": 3,
+            "relayCount": 6,
+            "uartCount": 8,
+            "uiCount": 11,
+            "flashSize": 262144,
+            "ramSize": 65536,
+            "flashPageSize": 256,
+            "isDesktop": false,
+            "isResourcesInternal": false
+        },
+        "stdlib": "armv7m",
+        "includePaths": [],
+        "stdlibs": [],
+        "runtime": "clang_rt.builtins-armv7m"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "vividus.scenario.keyword",
+                "settings": {
+                    "fontStyle": "bold",
+                    "foreground": "#00f3ef"
+                }
+            },
+            {
+                "scope": "vividus.scenario.title",
+                "settings": {
+                    "foreground": "#94d6fc"
+                }
+            },
+            {
+                "scope": "vividus.meta",
+                "settings": {
+                    "foreground": "#ffe600",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "vividus.meta.key",
+                "settings": {
+                    "foreground": "#d6c316",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "vividus.meta.value",
+                "settings": {
+                    "foreground": "#ff0095",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "vividus.step.type",
+                "settings": {
+                    "foreground": "#12b6b3",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "vividus.step.wording",
+                "settings": {
+                    "foreground": "#c47332f6"
+                }
+            },
+            {
+                "scope": [
+                    "vividus.keyword"
+                ],
+                "settings": {
+                    "fontStyle": "bold",
+                    "foreground": "#a37be1"
+                }
+            },
+            {
+                "scope": [
+                    "vividus.keyword.attribute"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#a8b9fb"
+                }
+            },
+            {
+                "scope": [
+                    "vividus.log.time"
+                ],
+                "settings": {
+                    "foreground": "#666f76"
+                }
+            },
+            {
+                "scope": [
+                    "vividus.log.thread"
+                ],
+                "settings": {
+                    "foreground": "#3a86c3"
+                }
+            },
+            {
+                "scope": [
+                    "vividus.log.level.info"
+                ],
+                "settings": {
+                    "foreground": "#30a815"
+                }
+            },
+            {
+                "scope": [
+                    "vividus.log.level.error"
+                ],
+                "settings": {
+                    "foreground": "#c50f09"
+                }
+            },
+            {
+                "scope": [
+                    "vividus.log.level.debug"
+                ],
+                "settings": {
+                    "foreground": "#1ab288"
+                }
+            },
+            {
+                "scope": [
+                    "vividus.log.class"
+                ],
+                "settings": {
+                    "foreground": "#ddc728"
+                }
+            },
+            {
+                "scope": [
+                    "vividus.log.message"
+                ],
+                "settings": {
+                    "foreground": "#d4dbdd"
+                }
+            }
+        ]
+    },
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./profile",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "files.autoSave": "onWindowChange"
+}
